@@ -8,7 +8,7 @@ function init() {
   // create a new stage and point it at our canvas:
   canvas = document.getElementById("testCanvas");
   stage = new createjs.Stage(canvas);
-  
+
   // Resize canvas to fit window size
   resizeCanvas();
 
