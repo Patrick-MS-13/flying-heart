@@ -1,3 +1,11 @@
+/* Set canvas to take full width and height */
 canvas {
-  background-color:#312;
+  display: block; /* Removes any space below the canvas */
+  width: 100%;    /* Full width of the screen */
+  height: 100%;   /* Full height of the screen */
+  background-color: #312;  /* Dark background color */
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
 }
