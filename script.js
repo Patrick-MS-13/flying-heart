@@ -28,7 +28,6 @@ function init() {
     container.addChild(heart);
   }
 
-  
   // Adjust text size based on screen width
   var text = new createjs.Text("Do not close your eyes. I need you to feel the heat between us, whether we're together or away...", "bold " + getTextSize() + "px Arial", "#312");
   text.textAlign = "center";
