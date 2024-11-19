@@ -29,7 +29,7 @@ function init() {
   }
 
   // Adjust text size based on screen width
-  var text = new createjs.Text("Do not close your eyes. I need you to feel the heat between us, whether we're together or away...", "bold " + getTextSize() + "px Arial", "#312");
+  var text = new createjs.Text("Nee oru Mass laaa", "bold " + getTextSize() + "px Arial", "#312");
   text.textAlign = "center";
   text.lineWidth = canvas.width - 40;  // To allow text wrapping inside the screen
   text.x = canvas.width / 2;
